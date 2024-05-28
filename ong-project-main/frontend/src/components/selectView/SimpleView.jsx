@@ -1,11 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { UseID } from "../../main.jsx";
 import "../../routes/Home.css";
-import React, { useContext, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { UseID } from '../../main.jsx';
-import '../../routes/Home.css'
-
 
 import "./SimpleView.css";
 
