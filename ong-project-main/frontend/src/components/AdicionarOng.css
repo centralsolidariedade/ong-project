@@ -1,0 +1,23 @@
+.inputNovasONGS{
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.botoesInputNovasONGS{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    width: 50%;
+}
+
+.botaoFormOngs{
+    width: 48%;
+    height: 40px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}

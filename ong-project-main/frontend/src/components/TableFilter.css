@@ -1,0 +1,52 @@
+.contentTable{
+    border: 1px solid #252C58;
+    border-radius: 10px;
+    height: 150px;
+    padding: 15px;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.contentTable td {
+    border-top: 1px solid #252C58;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.contentTable th {
+    padding: 15px 0;
+    text-align: center;
+}
+
+.titleTable{
+    color: #252C58;
+    font-size: 15px;
+}
+
+.nome,
+.dataNascimento, 
+.idBeneficiario, 
+.idade, 
+.idFamilia, 
+.cpf {
+    text-align: center;
+}
+
+.statusBorder {
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.statusBorder.status-entregue {
+    text-align: center;
+    background-color: #3353f487;
+}
+
+.statusBorder.status-não-entregue {
+    text-align: center;
+    background-color: #ff000082 ;
+}

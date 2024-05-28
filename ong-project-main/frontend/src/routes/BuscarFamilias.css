@@ -1,0 +1,84 @@
+body {
+    font-family: 'Space Mono', monospace;
+}
+
+.layoutSlider{
+    display: flex;
+    height: 100%;
+    width: 1090px;
+    flex-direction: column;
+}
+
+.containerBuscar{
+    display: flex;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    flex-direction: column;
+    padding: 35px 30px 0 30px;
+    margin-top: 20px;
+}
+
+.searchInput{
+    width: 20rem;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #252C58;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    color: #252C58;
+}
+
+.titleSection{
+    margin-bottom: 15px;
+}
+
+.textInput{
+    margin-left: 50px;
+    border: none;
+    background-color: transparent;
+    color: #252C58;
+    text-align: center;
+}
+
+.textInput:focus{
+    outline: none;
+    color: #252C58;
+}
+
+.descriptionFiltro{
+    color: #252C58;
+    font-size: 10px;
+    margin-top: 5px;
+    margin-left: 2px;
+    margin-bottom: 20px;
+}
+
+.addFamilySearch{
+    display: flex;
+    justify-content: space-between;
+}
+
+.linkAddNewFamily{
+    text-decoration: none;  
+    margin-right: 15px;
+    background-color: #252C58;
+    color: white;
+    font: 16px;
+    font-weight: bolder;
+    border: 1px solid #252C58;
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.linkAddNewFamily:hover{
+    color: #252C58;
+    background-color: #d2d8ff;
+    border: 1px solid #d2d8ff;
+}

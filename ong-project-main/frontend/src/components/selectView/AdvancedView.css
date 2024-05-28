@@ -1,0 +1,37 @@
+.backgroundDivGraphs{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    @media (max-width: 600px) {
+            display: grid;
+            flex-direction: column;
+            justify-content: space-around;
+            gap: 50px;
+        }
+}
+
+.graph01,
+.graph02{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 10px 20px 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    text-align: center;
+    @media (max-width: 600px) {
+        width: 600px;
+        height: 400px;
+    }
+
+}
+
+.divEmBreve{
+    margin-top: 20px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloCentralizado{
+    text-align: center;
+}

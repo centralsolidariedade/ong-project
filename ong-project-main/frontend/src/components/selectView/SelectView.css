@@ -1,0 +1,43 @@
+.select-view {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    margin: 0;
+}
+
+.button__select_view1,
+.button__select_view2 {
+    margin: 0;
+    border: none;
+    width: 120px;
+    height: 35px;
+    background-color: white;
+    font-size: 12px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.button__select_view1{
+    border-radius: 10px 0px 0px 10px;
+}
+
+.button__select_view2{
+    border-radius: 0px 10px 10px 0px;
+}
+
+.button__select_view1:focus,
+.button__select_view2:focus {
+    color: blue;
+}
+
+.container-botoes {
+    height: 30px;
+    display: flex;
+    justify-content: end;
+}
+
+.separatorSelect{
+    border: 1.5px solid #ededed;
+    height: 30px;
+}
+

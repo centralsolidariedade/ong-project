@@ -1,0 +1,57 @@
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.container-familia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.infomacoes-familia-individuo{
+    display: flex;
+    margin: 20px 0 30px 0;
+    width: 100%;
+}
+
+.cpf-text{
+    text-align: center;
+    font-size: 14px;
+}
+
+.card-infos-familia{
+    margin: 0 20px 0 20px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    width: 230px;
+    padding: 2px 0 2px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.entregar-cesta-basica-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.buttonBackTable{
+    border: none;
+    margin-bottom: 25px;
+    background-color: #252c58;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.buttonBackTable:hover{
+    background-color: #1e223f;
+}

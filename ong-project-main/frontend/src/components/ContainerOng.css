@@ -1,0 +1,35 @@
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.cnpj-text{
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.container-ong{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.infomacoes-ong{
+    display: flex;
+    margin: 30px 0 30px 0;
+    width: 100%;
+}
+
+.card-infos-ong{
+    margin: 0 20px 0 20px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    width: 300px;
+    height: 25px;
+    padding: 2px 0 2px 0;
+    text-align: center;
+    font-size: 14px;
+}
