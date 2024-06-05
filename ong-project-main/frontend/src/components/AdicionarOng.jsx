@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './AdicionarOng.css';
 import { useNavigate } from 'react-router-dom';
-
+import { baseURL } from '../services/baseURL';
 function AdicionarOng() {
 
   const navigate = useNavigate();
@@ -24,7 +24,7 @@ function AdicionarOng() {
   }, []);
 
   const handleOngsList = () => {
-    axios.get('http://localhost:7777/ongs/listar-ongs')
+    axios.get(`${baseURL}/ongs/listar-ongs`)
       .then(response => {
         let lastOng = response.data[response.data.length - 1].id_ong + 1;
         setFormValues({ ...formValues, id_ong: lastOng });
@@ -43,7 +43,7 @@ function AdicionarOng() {
     event.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:7777/ongs/inserir/', formValues, {
+      const response = await axios.post(`${baseURL}/ongs/inserir/`, formValues, {
         headers: {
           'Accept': 'application/json',
           'Content-Type': 'application/json'
